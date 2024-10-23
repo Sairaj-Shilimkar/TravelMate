@@ -1,0 +1,42 @@
+.createpost{
+    max-width: 500px;
+    margin: 50px auto;
+    border: 1px solid rgb(173, 173,173); 
+    border-radius: 5px;
+}
+.maindiv{
+    border-top: 1px solid rgb(173, 173,173);
+}
+.postheader{
+    display: flex;
+}
+#post-btn{
+    border: navajowhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+#post-btn:hover{
+    color: white;
+    background-color:rgb(111, 50, 208);
+}
+.details{
+    border-top: 1px solid rgb(173, 173,173);
+}
+textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+#output{
+    border: none;
+    outline: none;
+    align-items: center;
+    width: 300px;
+    height:auto;
+    margin:25px;
+}
+.price{
+    width:80%;
+    margin-left:50px;
+}

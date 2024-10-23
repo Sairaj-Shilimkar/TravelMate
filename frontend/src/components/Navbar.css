@@ -1,0 +1,48 @@
+.navbar{
+    width: 102%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 5px 5px rgb(210, 207, 207);
+
+}
+
+img{
+    height: 70px;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 10px 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav:hover{
+    background-color:rgb(111, 50, 208);
+    color: white;
+}
+
+.primaryBtn{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 80px;
+    height: 45px;
+    border: none;
+    border-radius:15px;
+    background-color:rgb(111, 50, 208) ;
+    font-weight: normal;
+    font-size: medium;
+    color: white;
+}
+.primaryBtn:hover{
+    background-color: rgb(246, 12, 12);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px -10px rgba(219, 24,44,0.6);
+}

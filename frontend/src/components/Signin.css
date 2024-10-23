@@ -1,0 +1,40 @@
+.signIn{
+    background-image: url("https://cdn.wallpapersafari.com/96/87/YFjI9S.jpg");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vw;
+    margin-top: 5px;
+}
+
+.loginform{
+    background-color: aliceblue;
+    padding: 30px;
+    border:1px solid rgb(221, 161, 245);
+    border-radius: 1px;
+    margin-top: 10px;
+    width: 400px;
+}
+#signup{
+    text-decoration: none;
+    font-size: 13px;
+    color: blue;
+}
+#login-btn{
+    width: 130px;
+    margin-top: 20px;
+    font-weight: 520;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(111, 50, 208);
+    color: white;
+    height: 30px;
+    font-size: medium;
+    cursor: pointer;
+}
+#login-btn:hover{
+    background-color: rgb(176, 141, 232);
+    color:black;
+}
